@@ -1,26 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Grid, Row, Col, } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+
+      <Grid className="App">
+        <Row>
+          <Col md={8} className="introduction">
+            <h1>Hello</h1>
+          </Col>
+          <Col md={4} className="projects">
+            <h1>Projects</h1>
+
+          </Col>
+          <Col md={4} className="contactMe">
+            <h1>How to contact me</h1>
+
+
+          </Col>
+          <Col md={8} className="resume">
+            <h1>Summary and resume</h1>
+
+          </Col>
+        </Row>
+      </Grid>
     );
   }
 }
