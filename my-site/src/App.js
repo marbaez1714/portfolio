@@ -1,39 +1,48 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, } from 'react-bootstrap';
+import { Grid, Col } from 'react-bootstrap';
+import Pipe from './images/pipe.svg';
 import './App.css';
+
+function AppHeader(props) {
+  return (
+    <Col xs={12} md={12} className="header">
+      <Col xs={12} md={6} className="header-link-title">
+        <h2 style={{ fontWeight: '800' }}>Mar.io</h2>
+      </Col>
+      <Col xs={4} md={2} className="header-link">
+        <h3 style={{ fontWeight: '800' }}>About</h3>
+      </Col>
+      <Col xs={4} md={2} className="header-link">
+        <h3 style={{ fontWeight: '800' }}>Projects</h3>
+      </Col>
+      <Col xs={4} md={2} className="header-link">
+        <h3 style={{ fontWeight: '800' }}>Contact</h3>
+      </Col>
+    </Col>
+
+  )
+
+}
+
+
 
 class App extends Component {
   render() {
     return (
-
-      <Grid className="App">
-        <Row>
-          <Col md={8} className="introduction">
-
-            <Col md={12}>
-              <h1>Welcome!</h1>
-              <h2>My name is Mario!</h2>
-              <h3>I'm a curios problem solver, devoted to finding new and innovative solutions that improve the lives of others. </h3>
-            </Col>
-
+      <div className="App">
+        <AppHeader />
+        <Grid >
+          <Col md={4} mdOffset={4} className="itsMe">
+            <h1 style={{ fontSize: "5vh", fontWeight: '800' }}>It's me! Mario!</h1>
+            <h3>
+              I’m a passionate learner devoted to using technology to improve the lives of others.
+            </h3>
+            <h3>Learn More!</h3>
           </Col>
-          <Col md={4} className="projects">
-            <h1>Projects</h1>
+          <img src={Pipe} className="pipeImage" />
+        </Grid >
+      </div>
 
-          </Col>
-          <Col md={4} className="contactMe">
-            <h1>Get in contact!</h1>
-            <h1><i className="fas fa-phone"></i></h1>
-
-
-
-          </Col>
-          <Col md={8} className="resume">
-            <h1>Summary and resume</h1>
-
-          </Col>
-        </Row>
-      </Grid>
     );
   }
 }
