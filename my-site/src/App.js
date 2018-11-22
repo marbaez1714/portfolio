@@ -9,14 +9,22 @@ class App extends Component {
       <Grid className="App">
         <Row>
           <Col md={8} className="introduction">
-            <h1>Hello</h1>
+
+            <Col md={12}>
+              <h1>Welcome!</h1>
+              <h2>My name is Mario!</h2>
+              <h3>I'm a curios problem solver, devoted to finding new and innovative solutions that improve the lives of others. </h3>
+            </Col>
+
           </Col>
           <Col md={4} className="projects">
             <h1>Projects</h1>
 
           </Col>
           <Col md={4} className="contactMe">
-            <h1>How to contact me</h1>
+            <h1>Get in contact!</h1>
+            <h1><i className="fas fa-phone"></i></h1>
+
 
 
           </Col>
