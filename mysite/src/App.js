@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
 import Header from './components/header';
 import Welcome from './components/welcome';
+import Experience from './components/experience';
+import Skills from './components/skills'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -11,6 +12,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <Welcome />
+        <Experience id="experience" />
+        <Skills id="skills" />
       </div>
     );
   }
