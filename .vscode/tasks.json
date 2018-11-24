@@ -6,7 +6,11 @@
         {
             "type": "npm",
             "script": "start",
-            "path": "mysite/",
+            "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "dev",
             "problemMatcher": []
         }
     ]

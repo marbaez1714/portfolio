@@ -11,8 +11,7 @@ export default function Experience(props) {
                 <Row className="slide-in-left" style={{ borderBottomStyle: "solid", borderWidth: "2px", borderColor: "#66717e" }}>
                     <Col>
                         <h1 className="experienceTitle">Experience</h1>
-                        <p>Here are some of the places that I've worked.</p>
-                        <h6 className="smallScreen">Sorry! This screen is small. So to save space, I reduced this section for mobile. For more info, click <a href="https://www.linkedin.com/in/mario-baez-a40573113">Here</a>!</h6>
+                        <h6 className="smallScreen">For more details about my professional life, visit my <a href="https://www.linkedin.com/in/mario-baez-a40573113">LinkedIn</a>.</h6>
                     </Col>
                 </Row>
                 {/* Weir */}

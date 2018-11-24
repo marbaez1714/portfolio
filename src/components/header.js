@@ -7,13 +7,13 @@ export default function Header(props) {
         <header className="App-header slide-in-top-4s">
             <Container>
                 <Row>
-                    <Col xs="12"><h6>Mario Baez</h6></Col>
+                    <Col xs="12"><h2 style={{ fontWeight: "600" }}>Mario Baez</h2></Col>
                     <Col xs="12">
                         <Row>
-                            <Col xs="3"><h6>Experience</h6></Col>
-                            <Col xs="3"><h6>Skills</h6></Col>
-                            <Col xs="3"><h6>Projects</h6></Col>
-                            <Col xs="3"><h6>Contact</h6></Col>
+                            <Col xs="3"><h6 style={{ fontWeight: "600" }}>Experience</h6></Col>
+                            <Col xs="3"><h6 style={{ fontWeight: "600" }}>Skills</h6></Col>
+                            <Col xs="3"><h6 style={{ fontWeight: "600" }}>Projects</h6></Col>
+                            <Col xs="3"><h6 style={{ fontWeight: "600" }}>Contact</h6></Col>
                         </Row>
                     </Col>
                 </Row>
