@@ -9,12 +9,12 @@ export default function Header(props) {
                 <Row>
                     <Col xs="12"><h2 style={{ fontWeight: "600" }}>Mario Baez</h2></Col>
                     <Col xs="12">
-                        <Row>
+                        {/* <Row>
                             <Col xs="3"><h6 style={{ fontWeight: "600" }}>Experience</h6></Col>
                             <Col xs="3"><h6 style={{ fontWeight: "600" }}>Skills</h6></Col>
                             <Col xs="3"><h6 style={{ fontWeight: "600" }}>Projects</h6></Col>
                             <Col xs="3"><h6 style={{ fontWeight: "600" }}>Contact</h6></Col>
-                        </Row>
+                        </Row> */}
                     </Col>
                 </Row>
             </Container>

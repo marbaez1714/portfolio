@@ -13,7 +13,9 @@ export default function Footer(props) {
                 </Row>
                 <Row>
                     <Col xs="12">
-                        <h5 className="credit">Made by Mario Baez</h5>
+                        <h6 className="credit">Made by Mario Baez</h6>
+                        <h6 className="credit">marbaez1714@gmail.com</h6>
+
                     </Col>
                 </Row>
             </Container>
