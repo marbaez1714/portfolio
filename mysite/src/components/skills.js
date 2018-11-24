@@ -10,7 +10,7 @@ import reduxLogo from '../images/redux.png';
 import gitLogo from '../images/git.png';
 import pythonLogo from '../images/python.png';
 import swLogo from '../images/solidworks.png';
-import ansysLogo from '../images/ansys.png';
+import jestLogo from '../images/jest.png';
 import autocadLogo from '../images/autocad.png';
 
 function SkillIcon(props) {
@@ -49,7 +49,7 @@ export default function Skills(props) {
                     <SkillIcon skillName="Node.js" logo={nodeLogo} />
                     <SkillIcon skillName="Python" logo={pythonLogo} />
                     <SkillIcon skillName="SolidWorks" logo={swLogo} />
-                    <SkillIcon skillName="ANSYS" logo={ansysLogo} />
+                    <SkillIcon skillName="Jest" logo={jestLogo} />
                     <SkillIcon skillName="AutoCAD" logo={autocadLogo} />
                 </Row>
             </Container>
