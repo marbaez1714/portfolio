@@ -9,14 +9,14 @@ export default function Welcome(props) {
             <Container className="welcome">
                 <Row>
                     <Col xs="2">
-                        <img className="pipe slide-in-left " src={Pipe} />
+                        <img className="pipe slide-in-left " src={Pipe} alt="" />
                     </Col>
                     <Col xs="8" className="welcomeContent" >
                         <h1 className="welcomeText fade-in-left-4s">Curious Problem Solver</h1>
                         <p className="fade-in-left-4s">It’s a me Mario! I’m a curious person constantly looking to apply technology. </p>
                     </Col>
                     <Col xs="2">
-                        <img className="pipeRight slide-in-right" src={PipeRight} />
+                        <img className="pipeRight slide-in-right" src={PipeRight} alt="" />
                     </Col>
                 </Row>
             </Container>

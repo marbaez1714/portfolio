@@ -15,7 +15,7 @@ import autocadLogo from '../images/autocad.png';
 
 function SkillIcon(props) {
     return (
-        <Col xs="4" >
+        <Col xs="4" md="3">
             <Button outline color="secondary" className="skillIcon">
                 <img className="skillLogo" src={props.logo} alt={props.skillName} />
             </Button>
@@ -33,23 +33,23 @@ export default function Skills(props) {
     return (
         <div className="skillsWrapper">
             <Container className="skills">
-                <Row className="slide-in-left" style={{ borderBottomStyle: "solid", borderWidth: "2px", borderColor: "#66717e" }}>
+                <Row className="slide-in-left">
                     <Col>
                         <h1 className="skillsTitle">Skills</h1>
                     </Col>
                 </Row>
                 <Row>
-                    <SkillIcon skillName="HTML" logo={htmlLogo} />
-                    <SkillIcon skillName="CSS" logo={cssLogo} />
-                    <SkillIcon skillName="SASS" logo={sassLogo} />
                     <SkillIcon skillName="JavaScript" logo={jsLogo} />
                     <SkillIcon skillName="React" logo={reactLogo} />
                     <SkillIcon skillName="Redux" logo={reduxLogo} />
                     <SkillIcon skillName="Git" logo={gitLogo} />
                     <SkillIcon skillName="Node.js" logo={nodeLogo} />
+                    <SkillIcon skillName="HTML" logo={htmlLogo} />
+                    <SkillIcon skillName="CSS" logo={cssLogo} />
+                    <SkillIcon skillName="SASS" logo={sassLogo} />
+                    <SkillIcon skillName="Jest" logo={jestLogo} />
                     <SkillIcon skillName="Python" logo={pythonLogo} />
                     <SkillIcon skillName="SolidWorks" logo={swLogo} />
-                    <SkillIcon skillName="Jest" logo={jestLogo} />
                     <SkillIcon skillName="AutoCAD" logo={autocadLogo} />
                 </Row>
             </Container>

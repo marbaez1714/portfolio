@@ -8,7 +8,7 @@ export default function Experience(props) {
     return (
         <div className="experienceWrapper">
             <Container className="experience">
-                <Row className="slide-in-left" style={{ borderBottomStyle: "solid", borderWidth: "2px", borderColor: "#66717e" }}>
+                <Row className="slide-in-left">
                     <Col>
                         <h1 className="experienceTitle">Experience</h1>
                         <h6 className="smallScreen">For more details about my professional life, visit my <a href="https://www.linkedin.com/in/mario-baez-a40573113">LinkedIn</a>.</h6>
@@ -17,13 +17,12 @@ export default function Experience(props) {
                 {/* Weir */}
                 <Row className="workplace slide-in-right">
                     <Col xs="2">
-                        <img src={WeirLogo} style={{ width: "100%" }} />
-
+                        <img src={WeirLogo} style={{ width: "90%", marginTop: "100%", marginBottom: "100%" }} alt="" />
                     </Col>
                     <Col xs="10">
                         <Card style={{ height: "100%", textAlign: "left" }}>
                             <CardBody>
-                                <CardTitle><strong>Weir SPM</strong> </CardTitle>
+                                <CardTitle className="workplaceName"><strong>Weir SPM</strong> </CardTitle>
                                 <CardSubtitle>
                                     June '17 – Present: <strong>Graduate Engineer</strong> working as a <strong>Front-End Developer</strong>.
                                 </CardSubtitle>
@@ -49,13 +48,13 @@ export default function Experience(props) {
                 {/* Triumph */}
                 <Row className="workplace slide-in-left">
                     <Col xs="2">
-                        <img src={TriumphLogo} style={{ width: "100%" }} />
+                        <img src={TriumphLogo} style={{ width: "90%", marginTop: "100%", marginBottom: "100%" }} alt="" />
 
                     </Col>
                     <Col xs="10">
                         <Card style={{ height: "100%", textAlign: "left" }}>
                             <CardBody>
-                                <CardTitle><strong>Triumph Aerostructures  </strong> </CardTitle>
+                                <CardTitle className="workplaceName"><strong>Triumph Aerostructures  </strong> </CardTitle>
                                 <CardSubtitle>
                                     March 2016 – September 2016: <strong>Engineering Intern</strong> focusing on <strong>Manufacturing</strong>.
                                 </CardSubtitle>
@@ -74,13 +73,13 @@ export default function Experience(props) {
                 {/* GE */}
                 <Row className="workplace slide-in-right">
                     <Col xs="2">
-                        <img src={GELogo} style={{ width: "100%" }} />
+                        <img src={GELogo} style={{ width: "90%", marginTop: "100%", marginBottom: "100%" }} alt="" />
 
                     </Col>
                     <Col xs="10">
                         <Card style={{ height: "100%", textAlign: "left" }}>
                             <CardBody>
-                                <CardTitle><strong>GE Oil & Gas – Inspection Technologies  </strong> </CardTitle>
+                                <CardTitle className="workplaceName"><strong>GE Oil & Gas – Inspection Technologies  </strong> </CardTitle>
                                 <CardSubtitle>
                                     June 2015 – August 2018: <strong>Engineering Intern</strong> focusing on <strong>Testing</strong>.
                                 </CardSubtitle>
