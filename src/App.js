@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import Header from './components/header';
 import Welcome from './components/welcome';
 import Experience from './components/experience';
-import Skills from './components/skills'
-import Footer from './components/footer'
+import Skills from './components/skills';
+import Projects from './components/projects';
+import Footer from './components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -15,6 +16,7 @@ class App extends Component {
         <Welcome />
         <Experience id="experience" />
         <Skills id="skills" />
+        <Projects />
         <Footer />
       </div>
     );

@@ -15,7 +15,7 @@ import autocadLogo from '../images/autocad.png';
 
 function SkillIcon(props) {
     return (
-        <Col xs="4" md="3">
+        <Col xs="4" md="3" className="slide-in-right">
             <Button outline color="secondary" className="skillIcon">
                 <img className="skillLogo" src={props.logo} alt={props.skillName} />
             </Button>

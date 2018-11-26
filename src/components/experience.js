@@ -17,7 +17,7 @@ export default function Experience(props) {
                 {/* Weir */}
                 <Row className="workplace slide-in-right">
                     <Col xs="2">
-                        <img src={WeirLogo} style={{ width: "90%", marginTop: "100%", marginBottom: "100%" }} alt="" />
+                        <img src={WeirLogo} style={{ width: "90%" }} alt="" />
                     </Col>
                     <Col xs="10">
                         <Card style={{ height: "100%", textAlign: "left" }}>
@@ -48,7 +48,7 @@ export default function Experience(props) {
                 {/* Triumph */}
                 <Row className="workplace slide-in-left">
                     <Col xs="2">
-                        <img src={TriumphLogo} style={{ width: "90%", marginTop: "100%", marginBottom: "100%" }} alt="" />
+                        <img src={TriumphLogo} style={{ width: "90%" }} alt="" />
 
                     </Col>
                     <Col xs="10">
@@ -73,7 +73,7 @@ export default function Experience(props) {
                 {/* GE */}
                 <Row className="workplace slide-in-right">
                     <Col xs="2">
-                        <img src={GELogo} style={{ width: "90%", marginTop: "100%", marginBottom: "100%" }} alt="" />
+                        <img src={GELogo} style={{ width: "90%" }} alt="" />
 
                     </Col>
                     <Col xs="10">
