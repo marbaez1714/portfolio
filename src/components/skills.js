@@ -16,8 +16,8 @@ import autocadLogo from '../images/autocad.png';
 function SkillIcon(props) {
     return (
         <Col xs="4" md="3" className="slide-in-right">
-            <Button outline color="secondary" className="skillIcon">
-                <img className="skillLogo" src={props.logo} alt={props.skillName} />
+            <Button outline color="secondary" className="skillIcon" onMouseOver={event => props.changeImage(props.skillName, props.logo)}>
+                <img className="skillLogo" src={props.currentImage} alt={props.skillName} />
             </Button>
             <h6 style={{ marginTop: "0.5rem" }}>
                 {props.skillName}
@@ -25,9 +25,6 @@ function SkillIcon(props) {
         </Col>
     )
 }
-
-
-
 
 export default function Skills(props) {
     return (
@@ -39,18 +36,18 @@ export default function Skills(props) {
                     </Col>
                 </Row>
                 <Row>
-                    <SkillIcon skillName="JavaScript" logo={jsLogo} />
-                    <SkillIcon skillName="React" logo={reactLogo} />
-                    <SkillIcon skillName="Redux" logo={reduxLogo} />
-                    <SkillIcon skillName="Git" logo={gitLogo} />
-                    <SkillIcon skillName="Node.js" logo={nodeLogo} />
-                    <SkillIcon skillName="HTML" logo={htmlLogo} />
-                    <SkillIcon skillName="CSS" logo={cssLogo} />
-                    <SkillIcon skillName="SASS" logo={sassLogo} />
-                    <SkillIcon skillName="Jest" logo={jestLogo} />
-                    <SkillIcon skillName="Python" logo={pythonLogo} />
-                    <SkillIcon skillName="SolidWorks" logo={swLogo} />
-                    <SkillIcon skillName="AutoCAD" logo={autocadLogo} />
+                    <SkillIcon changeImage={props.changeImage} skillName="JavaScript" logo={jsLogo} currentImage={props.imageState.JavaScript} />
+                    <SkillIcon changeImage={props.changeImage} skillName="React" logo={reactLogo} currentImage={props.imageState.React} />
+                    <SkillIcon changeImage={props.changeImage} skillName="Redux" logo={reduxLogo} currentImage={props.imageState.Redux} />
+                    <SkillIcon changeImage={props.changeImage} skillName="Git" logo={gitLogo} currentImage={props.imageState.Git} />
+                    <SkillIcon changeImage={props.changeImage} skillName="Nodejs" logo={nodeLogo} currentImage={props.imageState.Nodejs} />
+                    <SkillIcon changeImage={props.changeImage} skillName="HTML" logo={htmlLogo} currentImage={props.imageState.HTML} />
+                    <SkillIcon changeImage={props.changeImage} skillName="CSS" logo={cssLogo} currentImage={props.imageState.CSS} />
+                    <SkillIcon changeImage={props.changeImage} skillName="SASS" logo={sassLogo} currentImage={props.imageState.SASS} />
+                    <SkillIcon changeImage={props.changeImage} skillName="Jest" logo={jestLogo} currentImage={props.imageState.Jest} />
+                    <SkillIcon changeImage={props.changeImage} skillName="Python" logo={pythonLogo} currentImage={props.imageState.Python} />
+                    <SkillIcon changeImage={props.changeImage} skillName="SolidWorks" logo={swLogo} currentImage={props.imageState.SolidWorks} />
+                    <SkillIcon changeImage={props.changeImage} skillName="AutoCAD" logo={autocadLogo} currentImage={props.imageState.AutoCAD} />
                 </Row>
             </Container>
         </div>

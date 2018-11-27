@@ -12,15 +12,15 @@ export default function Projects(props) {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={{ size: "6", offset: "3" }}>
-                        <Card className="projectCard">
+                    <Col xs="12" md={{ size: "6", offset: "3" }}>
+                        <Card className="projectCard slide-in-right">
                             <CardImg top src="https://img.scryfall.com/cards/art_crop/en/c18/212.jpg?1535504874" alt="Battlesphere Art" />
                             <CardBody>
                                 <CardTitle className="projectCardTitle">Battlesphere - WIP</CardTitle>
                                 <CardText className="smallScreenHide">Battlesphere is my first large project. The app is designed to give players of Magic the Gathering a central location to search for cards, build decks, gather information, and play games.  </CardText>
                                 <Row>
                                     <Col md="6">
-                                        <a href="https://battlesphere.herokuapp.com/"><Button style={{ width: "100%" }}>Visit</Button></a>
+                                        <a href="https://battlesphere.herokuapp.com/"><Button style={{ width: "100%", marginBottom: "1rem" }}>Visit</Button></a>
                                     </Col>
                                     <Col md="6">
                                         <a href="https://github.com/marbaez1714/battlesphere"><Button style={{ width: "100%" }}>GitHub</Button></a>
