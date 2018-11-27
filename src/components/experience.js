@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, CardTitle, CardBody, CardSubtitle, CardText 
 import WeirLogo from '../images/w_blue.png';
 import TriumphLogo from '../images/TriumphLogo.jpg';
 import GELogo from '../images/GELogo.png';
+import Wall from '../images/wall.svg';
 
 export default function Experience(props) {
     return (

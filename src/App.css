@@ -151,22 +151,17 @@ body{
   background-color: #f5f5f5;
   color: #393d3f;
 }
-
 .projects{
   padding-top:5vh;
   padding-bottom:5vh;
-
 }
 .projectsTitle{
   font-weight: 600 !important;
   font-size:3rem;
-
 }
-
 .projectCard{
   text-align: left;
 }
-
 .projectCardTitle{
   font-size: 1.5rem;
   font-weight: bold;
@@ -224,5 +219,8 @@ body{
   }
   .skillLogo{
     width:90%;
+  }
+  .smallScreenHide{
+    display: none;
   }
 }
