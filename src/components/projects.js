@@ -20,7 +20,7 @@ export default function Projects(props) {
                                 <CardText className="smallScreen">Battlesphere is my first large project. The app is designed to give players of Magic the Gathering a central location to search for cards, build decks, gather information, and play games.  </CardText>
                                 <Row>
                                     <Col md="6">
-                                        <a href="battlesphere.io"><Button style={{ width: "100%" }}>Visit</Button></a>
+                                        <a href="www.battlesphere.io"><Button style={{ width: "100%" }}>Visit</Button></a>
                                     </Col>
                                     <Col md="6">
                                         <a href="https://github.com/marbaez1714/battlesphere"><Button style={{ width: "100%" }}>GitHub</Button></a>
