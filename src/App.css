@@ -137,7 +137,8 @@ body{
   max-height: 10vh; 
 
 }
-
+.skillLogo:hover{
+}
 
 /* Footer Div */
 
@@ -238,3 +239,4 @@ body{
     display: none;
   }
 }
+
