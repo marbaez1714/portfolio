@@ -6,8 +6,10 @@ import Skills from './components/skills';
 import Projects from './components/projects';
 import Footer from './components/footer';
 import Block from './images/questionBlock.svg';
+import ReactGA from 'react-ga';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
 
 class App extends Component {
   constructor(props) {
@@ -41,7 +43,9 @@ class App extends Component {
 
   render() {
     return (
+
       <div className="App">
+        {ReactGA.initialize('UA-130106600-1'); }
         <Header />
         <Welcome />
         <Experience id="experience" />
