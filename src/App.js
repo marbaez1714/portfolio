@@ -10,6 +10,10 @@ import ReactGA from 'react-ga';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+function initializeReactGA() {
+  ReactGA.initialize('UA-123791717-1');
+  ReactGA.pageview('/homepage');
+}
 
 class App extends Component {
   constructor(props) {
@@ -45,7 +49,7 @@ class App extends Component {
     return (
 
       <div className="App">
-        {ReactGA.initialize('UA-130106600-1')}
+        {initializeReactGA()}
         <Header />
         <Welcome />
         <Experience id="experience" />
