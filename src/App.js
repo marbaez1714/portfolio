@@ -45,7 +45,7 @@ class App extends Component {
     return (
 
       <div className="App">
-        {ReactGA.initialize('UA-130106600-1'); }
+        {ReactGA.initialize('UA-130106600-1')}
         <Header />
         <Welcome />
         <Experience id="experience" />
